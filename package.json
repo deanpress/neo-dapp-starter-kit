@@ -1,0 +1,27 @@
+{
+  "name": "neo-contract-nodejs",
+  "version": "0.1.0",
+  "description": "Invoke Smart Contracts & Read Storage Data on the NEO Blockchain using neon-js",
+  "author": "Dean van Dugteren",
+  "main": "index.js",
+  "dependencies": {
+    "@cityofzion/neon-js": "^2.0.0",
+    "axios": "^0.17.1"
+  },
+  "keywords": [
+    "neo",
+    "neon-js",
+    "neon",
+    "neo-js",
+    "neo-js-api",
+    "neo",
+    "blockchain",
+    "smart",
+    "contract",
+    "neon",
+    "smart",
+    "contract",
+    "blockchain"
+  ],
+  "license": "MIT"
+}
