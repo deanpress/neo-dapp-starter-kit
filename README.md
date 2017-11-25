@@ -46,6 +46,6 @@ node.testContract('SetTask', ['someStorageKey', 'Hello World!'], (res) => {
 
 * **Dean van Dugteren** ([LinkedIn](https://www.linkedin.com/in/deanpress/)) - [Vidiato](https://vidiato.com) & [Click.DJ](https://click.dj)
 
-*Shout-out to the NEO dApp [BlockSaver](https://github.com/BlockSaver/backend) for the clear file structure `util.js`!*
+*Shout-out to the NEO dApp [BlockSaver](https://github.com/BlockSaver/backend) for the clear file structure and functions in `util.js`!*
 
 *Licensed under [MIT License](License)*
