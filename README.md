@@ -48,4 +48,4 @@ node.testContract('SetTask', ['someStorageKey', 'Hello World!'], (res) => {
 
 *Shout-out to the NEO dApp [BlockSaver](https://github.com/BlockSaver/backend) for the clear file structure, and functions in `util.js`!*
 
-*Licensed under [MIT License](License)*
+*Licensed under [MIT License](LICENSE)*
