@@ -20,7 +20,8 @@ node.invokeContract('SetTask', ['someStorageKey', 'Hello World!'], account, (res
         // You can also test your transaction with the arguments data to instantly return a result:
         console.log('Transaction processed!')
     }else{
-        console.log('Transaction has not been processed.')
+        console.log('Transaction failed.')
+        console.dir(res)
     }
 })
 ```
