@@ -109,13 +109,11 @@ module.exports = {
                             else
                                 return
                         })
-                    }
-                    else {
+                    } else {
                         console.log('Error:', res)
                     }
                 })
         })
-
     }
 }
 
