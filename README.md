@@ -1,13 +1,13 @@
-dApp Starter Kit: Neon-JS
+NEO dApp Starter Kit on [Neon-JS](https://github.com/CityOfZion/neon-js)
 ---
 
-**This is a starter kit for interacting with Smart Contracts on the NEO Blockchain using NodeJS and the neon-js package**
+**Ready-to-go functions for interacting with Smart Contracts on the NEO Blockchain using NodeJS and the neon-js package**
 
 ## Instructions:
 
 1. Clone this git repository
 2. Run `npm install`
-3. Edit `config.js` accordingly with your desired RPC & REST endpoints, WIF, and smart contract script hash.
+3. Edit `config.js` accordingly with your desired REST endpoint, WIF, and smart contract script hash.
 4. Check the methods in `index.js`, `util.js`, and `blockchain.js` for reference
 
 ## Functions:
@@ -42,3 +42,10 @@ node.testContract('SetTask', ['someStorageKey', 'Hello World!'], (res) => {
 })
 ```
 
+## Credits
+
+* **Dean van Dugteren** ([LinkedIn](https://www.linkedin.com/in/deanpress/)) - [Vidiato](https://vidiato.com) & [Click.DJ](https://click.dj)
+
+*Shout-out to the NEO dApp [BlockSaver](https://github.com/BlockSaver/backend) for the clear file structure, and functions in `util.js`!*
+
+*Licensed under [MIT License](LICENSE)*

@@ -1,5 +1,5 @@
 {
-  "name": "neo-contract-nodejs",
+  "name": "neo-dapp-starter-kit",
   "version": "0.1.0",
   "description": "Invoke Smart Contracts & Read Storage Data on the NEO Blockchain using neon-js",
   "author": "Dean van Dugteren",
