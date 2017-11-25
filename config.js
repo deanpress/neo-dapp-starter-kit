@@ -1,6 +1,4 @@
 module.exports = {
-    env: process.env.NODE_ENV || 'development',
-    port: process.env.PORT || 3000,
     // scriptHash is your smart contract Script Hash, without the first 2 '0x' characters
     // To retrieve your Script Hash: (in neo-gui: right click smart contract address > View Contract)
     scriptHash: '902c3c871ff596e69cf69fd4e289fa5b884f1aca',
