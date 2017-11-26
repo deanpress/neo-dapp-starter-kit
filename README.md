@@ -47,7 +47,7 @@ node.testContract('SetTask', ['someStorageKey', 'Hello World!'], (res) => {
 
 ## Created By:
 
-* **Dean van Dugteren** ([LinkedIn](https://www.linkedin.com/in/deanpress/)) - [Vidiato](https://vidiato.com), [Click.DJ](https://click.dj), [neo-php](https://github.com/cityofzion/neo-php)
+* **Dean van Dugteren** ([LinkedIn](https://www.linkedin.com/in/deanpress/)) - [neo-php](https://github.com/cityofzion/neo-php), [Vidiato](https://vidiato.com), [Click.DJ](https://click.dj)
 
 *Shout-out to the NEO dApp [BlockSaver](https://github.com/BlockSaver/backend) for the clear file structure, and functions in `util.js`!*
 
