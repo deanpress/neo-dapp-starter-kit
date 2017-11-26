@@ -49,8 +49,17 @@ module.exports = {
         })
     },
 
+    getScriptHash: (input) => {
+        const hash = neon.wallet.getScriptHashFromAddress(input)
+        return util.reverseHex(hash)
+    },
+
     getStorage: (key) => {
-        key = util.str2hex(key)
+        if (neon.wallet.isAddress(key)) {
+            key = module.exports.getScriptHash(key)
+        } else {
+            key = util.str2hex(key)
+        }
         return module.exports.queryRPC(
             'getstorage',
             [config.scriptHash, key]
