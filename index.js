@@ -1,7 +1,7 @@
 const neon = require('@cityofzion/neon-js');
 const Neon = neon.default;
-const node = require('./blockchain')
-const config = require('./config')
+const node = require('./backend/blockchain')
+const config = require('./backend/config')
 const account = Neon.create.account(config.wif)
 
 // Invoke a smart contract with a method and an array of strings
