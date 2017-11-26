@@ -1,4 +1,4 @@
-NEO dApp Starter Kit on [Neon-JS](https://github.com/CityOfZion/neon-js)
+NEO dApp Starter Kit on [neon-js](https://github.com/CityOfZion/neon-js)
 ---
 
 **Easily build dApps that interact with Smart Contracts on the NEO Blockchain, using NodeJS and the neon-js package**
