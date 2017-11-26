@@ -42,7 +42,7 @@ node.testContract('SetTask', ['someStorageKey', 'Hello World!'], (res) => {
 })
 ```
 
-## Credits
+## Created By:
 
 * **Dean van Dugteren** ([LinkedIn](https://www.linkedin.com/in/deanpress/)) - [neo-php](https://github.com/cityofzion/neo-php), [Vidiato](https://vidiato.com) & [Click.DJ](https://click.dj)
 
