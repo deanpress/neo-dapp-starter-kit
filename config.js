@@ -10,9 +10,9 @@ module.exports = {
      * RESTEndpoint is an endpoint to a neon-wallet-db REST server that's connected to your desired net (MainNet, TestNet, PrivNet)
      * MainNet: http://api.wallet.cityofzion.io
      * TestNet: http://testnet-api.wallet.cityofzion.io
-     * PrivNet: Your neon-wallet-db instance IP with port 5000
+     * PrivNet: HTTP URL to your neon-wallet-db instance IP with port 5000
      */
-     RESTEndpoint: 'http://127.0.0.1:5000',
+     RESTEndpoint: 'http://testnet-api.wallet.cityofzion.io',
     
      wif: 'KxDgvEKzgSBPPfuVfw67oPQBSjidEiqTHURKSDL1R7yGaGYAeYnr',
     
