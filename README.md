@@ -8,7 +8,7 @@ NEO dApp Starter Kit on [Neon-JS](https://github.com/CityOfZion/neon-js)
 1. `git clone https://github.com/deanpress/neo-dapp-starter-kit.git`
 2. `cd neo-dapp-starter-kit && npm install`
 3. Edit `config.js` accordingly with your desired REST endpoint, WIF, and smart contract script hash.
-4. Go to `backend` and check the methods in `index.js`, `util.js`, and `blockchain.js` for reference.
+4. Go to check the methods in `index.js`, `backend/util.js`, and `backend/blockchain.js` for reference.
 
 ## Functions:
 
