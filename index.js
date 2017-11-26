@@ -1,5 +1,3 @@
-const neon = require('@cityofzion/neon-js')
-const Neon = neon.default
 const node = require('./blockchain')
 const config = require('./config')
 const account = Neon.create.account(config.wif)
@@ -8,7 +6,6 @@ const account = Neon.create.account(config.wif)
 node.invokeContract('WriteToStorage', ['someStorageKey', 'Hello World!'], account, (res) => {
     if (res.result === true) {
         // Transaction successful. The stored data can be retrieved on the next block.
-        // You can also test your transaction with the arguments data to instantly return a result:
         console.log('Transaction processed!')
     } else {
         console.log('Transaction has not been processed.')
