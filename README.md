@@ -1,4 +1,4 @@
-NEO dApp Starter Kit on [neon-js](https://github.com/CityOfZion/neon-js)
+# NEO dApp Starter Kit on [neon-js](https://github.com/CityOfZion/neon-js)
 
 Also check out the [License dApp smart contract](https://github.com/deanpress/neosense) from the [NEO Amsterdam Tutorial](https://www.youtube.com/watch?v=yLPEsst_SVw)
 
